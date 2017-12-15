@@ -1,14 +1,17 @@
 .hero {
   background: url("../img/computer-bw.jpeg") center/cover no-repeat;
   display: flex;
+  flex-direction: column;
   width: 100%;
   height: 600px;
   p {
     color: $white;
     font-family: 'abril_fatfaceregular';
+    font-size: 2em;
   }
   h1 {
     color: $white;
     font-family: 'abril_fatfaceregular';
+    font-size: 6em;
   }
 }

@@ -45,6 +45,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+html {
+  box-sizing: border-box; }
+
+*, *::before, *::after {
+  box-sizing: inherit; }
+
 @font-face {
   font-family: 'abril_fatfaceregular';
   src: url("../fonts/abrilfatface-regular-webfont.woff2") format("woff2"), url("../fonts/abrilfatface-regular-webfont.woff") format("woff");
@@ -65,13 +71,66 @@ table {
 .hero {
   background: url("../img/computer-bw.jpeg") center/cover no-repeat;
   display: flex;
+  flex-direction: column;
   width: 100%;
   height: 600px; }
   .hero p {
     color: #FBFCFF;
-    font-family: 'abril_fatfaceregular'; }
+    font-family: 'abril_fatfaceregular';
+    font-size: 2em; }
   .hero h1 {
     color: #FBFCFF;
-    font-family: 'abril_fatfaceregular'; }
+    font-family: 'abril_fatfaceregular';
+    font-size: 6em; }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #605856;
+  width: 100%;
+  height: 150px;
+  color: #FBFCFF;
+  font-family: 'abril_fatfaceregular'; }
+  .footer div {
+    padding: 10px;
+    margin: 10px; }
+
+.skills {
+  display: flex;
+  justify-content: center;
+  background-color: #D0CCD0;
+  width: 100%;
+  height: 300px; }
+  .skills div {
+    display: flex;
+    flex-direction: column; }
+  .skills h3 {
+    font-family: 'abril_fatfaceregular';
+    font-size: 1.5em;
+    align-self: center; }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: honeydew; }
+  .gallery .img-card {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    position: relative; }
+    .gallery .img-card:nth-child(1) {
+      background: url("../img/outdoors.jpg");
+      flex-basis: 25%; }
+    .gallery .img-card:nth-child(2) {
+      background: url("../img/bio-photo.jpg");
+      flex-basis: 25%; }
+    .gallery .img-card:nth-child(3) {
+      background: url("../img/work-photo.jpg");
+      flex-basis: 25%; }
+    .gallery .img-card:nth-child(4) {
+      background: url("../img/mountain-hero.jpg");
+      flex-basis: 25%; }
 
 /*# sourceMappingURL=master.css.map */

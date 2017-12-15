@@ -1,0 +1,16 @@
+.skills {
+  display: flex;
+  justify-content: center;
+  background-color: $light-grey;
+  width: 100%;
+  height: 300px;
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+  h3 {
+    font-family: 'abril_fatfaceregular';
+    font-size: 1.5em;
+    align-self: center;
+  }
+}
