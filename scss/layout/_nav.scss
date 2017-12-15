@@ -1,9 +1,15 @@
 .nav {
   background-color: $dark-blue;
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  li {
+  height: 100px;
 
+  li {
+    display: inline;
+    color: $white;
+  }
+  img {
+    width: 10%;
+    height: 20px;
+    object-fit: cover;
   }
 }
