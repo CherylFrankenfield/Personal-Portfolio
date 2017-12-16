@@ -12,11 +12,11 @@
     justify-content: center;
     flex-wrap: wrap;
     &:nth-child(1) {
-      background: url('../img/outdoors.jpg') center/cover no-repeat;
+      background: url('../img/work1.png') center/cover no-repeat;
       flex-basis: 25%;
     }
     &:nth-child(2) {
-      background: url('../img/bio-photo.jpg') center/cover no-repeat;
+      background: url('../img/work2.png') center/cover no-repeat;
       flex-basis: 25%;
     }
     &:nth-child(3) {
@@ -24,7 +24,7 @@
       flex-basis: 25%;
     }
     &:nth-child(4) {
-      background: url('../img/mountain-hero.jpg') center/cover no-repeat;
+      background: url('../img/work4.png') center/cover no-repeat;
       flex-basis: 25%;
     }
   }
@@ -41,8 +41,8 @@
   color: $white;
   font-family: sans-serif;
   &:hover {
-    opacity: 0.8;
-    animation: slide 1s ease-in-out forwards;
+    opacity: .9;
+    animation: slide .5s ease-in-out forwards;
   }
   h3 {
     align-self: center;
