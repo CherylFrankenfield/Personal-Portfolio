@@ -15,7 +15,7 @@ _This website is a demonstration of using CSS / SASS practices including flexbox
 * Perform Git atom . command to open all files in repo.
 * View index.html in browser.
 * No other setup or install necessary.
-* Or [click here]() to view in browser now.
+* Or [click here](https://cherylfrankenfield.github.io/personal-portfolio) to view in browser now.
 
 ## Specs
 
