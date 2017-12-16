@@ -2,16 +2,16 @@
 
 ##### CSS & SASS - Build a personal portfolio website
 
-#### By Cheryl Frankenfield, 12/1/17
+#### By Cheryl Frankenfield, 12/15/17
 
 ## Description
 
-_This website is a demonstration of using CSS and SASS styles and practices including flexbox, responsive design, animations, transitions and transform properties._
+_This website is a demonstration of using CSS / SASS practices including flexbox, responsive design, animations, transitions and transform properties._
 
 ## Setup/Installation Requirements
 
 * Navigate to your terminal.
-* Perform Git clone command on the repo [here.]()
+* Perform Git clone command on the repo [here.](https://github.com/CherylFrankenfield/Personal-Portfolio.git)
 * Perform Git atom . command to open all files in repo.
 * View index.html in browser.
 * No other setup or install necessary.
@@ -20,20 +20,20 @@ _This website is a demonstration of using CSS and SASS styles and practices incl
 ## Specs
 
 _The site will use flexbox._
-* _Example: ._
+* _Example: I used flexbox on most containers and sections in the layout. I used flexbox for list styles as well._
 
 _The site will use some type of animation, transition or transform property._
-* _Example: This site is sized for desktop, iPad and mobile._
+* _Example: This site uses a keyframes animation on the project cards. There's a color transition on hover on the nav button Contact._
 
 _The site will use responsive design._
 * _Example: ._
 
 _The site will use SASS and partials to organize design elements._
-* _Example: ._
+* _Example: This site uses a 5 folder structure for vendors, base, abstracts, layout and components._
 
 ## Known Bugs
 
-_Text._
+_Still in the process of adding breakpoints and flex-basis values on tablet and mobile devices._
 
 ## Support and contact details
 
